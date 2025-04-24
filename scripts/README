@@ -1,0 +1,7 @@
+## 🛠️ Installation
+- Download `.py` files from `/scripts` (e.g., `Clash_Detection_Electrical_HVAC_Dynamo_v1.py`).
+- For plug-and-play, use `.dyn` files (where available) in `/workflows`.
+
+## 🚀 Usage
+- For `.py`: Add a Python Script node in Dynamo, paste the `.py` code, and connect inputs (e.g., rooms for Lighting Placement).
+- For `.dyn`: Open in Dynamo, select inputs if prompted, and run.
