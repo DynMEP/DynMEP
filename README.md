@@ -19,7 +19,7 @@ I create Python/Dynamo scripts to accelerate MEP design in Revit, optimizing BIM
 
 ## 📁 Scripts
 
-Below is a growing collection of Revit MEP automation scripts. Each includes a description highlighting time savings, NEC compliance, and MEP benefits. To add new scripts, copy the template format and include a 100-word description (see [Adding New Scripts](#adding-new-scripts)).
+Below is a growing collection of Revit MEP automation scripts. Each includes a description highlighting time savings, NEC compliance, and MEP benefits.
 
 ### 1. Clash Detection (Electrical-HVAC) 🛡️
 **Clash_Detection_Electrical_HVAC_Dynamo.py**  
