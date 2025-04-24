@@ -1,6 +1,6 @@
 # 👷‍♂️ DynMEP
 
-Welcome to **DynMEP**! I'm an engineer and automation enthusiast crafting **Dynamo scripts** to turbocharge **Revit MEP** and **BIM** workflows. My mission is to streamline mechanical, electrical, and plumbing design with NEC-compliant tools, saving MEP firms 5–15 hours per project. Built for Revit 2025, these tested scripts, backed by 20+ years of electrical engineering expertise, are hosted at [github.com/DynMEP](https://github.com/DynMEP) under the MIT License. Explore below to automate your BIM projects, reduce errors, and deliver top-notch MEP designs. New scripts are added regularly, so check back often!
+Welcome to **DynMEP**! I'm an engineer and automation enthusiast crafting **Dynamo scripts** to turbocharge **Revit MEP** and **BIM** workflows. My mission is to streamline mechanical, electrical, and plumbing design with NEC-compliant tools, saving MEP firms 5–15 hours per project. Built for Revit 2025, these tested scripts, backed by 20+ years of electrical engineering expertise, are hosted at [github.com/DynMEP/DynMEP](https://github.com/DynMEP/DynMEP) under the MIT License. Explore below to automate your BIM projects, reduce errors, and deliver top-notch MEP designs. New scripts are added regularly, so check back often!
 
 ---
 
@@ -56,7 +56,7 @@ Automate conduit length calculations in Revit 2025 with this Python/Dynamo scrip
    - RevitAPI, RevitServices libraries
 
 2. **Setup**:
-   - Clone the repo: `git clone https://github.com/DynMEP`
+   - Clone the repo: `git clone [https://github.com/DynMEP/DynMEP](https://github.com/DynMEP/DynMEP.git)`
    - Copy scripts to your Dynamo project folder.
    - Load scripts into Dynamo’s Python Script node.
    - Ensure Revit model includes relevant elements (e.g., conduits, rooms, panels).
@@ -82,7 +82,7 @@ Automate conduit length calculations in Revit 2025 with this Python/Dynamo scrip
 5. Run the script and check Desktop outputs (CSV, logs, guides).
 6. Review script logs for NEC compliance and troubleshooting (e.g., ensure closed room boundaries for Lighting Placement).
 
-See each script’s header or [wiki](https://github.com/DynMEP/wiki) for detailed guides.
+See each script’s header or [wiki](https://github.com/DynMEP/DynMEP/wiki) for detailed guides.
 
 ---
 
