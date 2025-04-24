@@ -56,7 +56,7 @@ Automate conduit length calculations in Revit 2025 with this Python/Dynamo scrip
    - RevitAPI, RevitServices libraries
 
 2. **Setup**:
-   - Clone the repo: `git clone [https://github.com/DynMEP/DynMEP](https://github.com/DynMEP/DynMEP.git)`
+   - Clone the repo: `git clone https://github.com/DynMEP/DynMEP.git`
    - Copy scripts to your Dynamo project folder.
    - Load scripts into Dynamo’s Python Script node.
    - Ensure Revit model includes relevant elements (e.g., conduits, rooms, panels).
