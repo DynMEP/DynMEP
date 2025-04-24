@@ -103,10 +103,10 @@ Got a BIM challenge or need custom automation? Explore, fork, or contribute to g
 
 ---
 
-Author: Alfonso Davila
-Email: davila.alfonso@gmail.com
-LinkedIn: www.linkedin.com/in/alfonso-davila-3a121087
-GitHub: github.com/DynMEP
+Author: Alfonso Davila  
+Email: davila.alfonso@gmail.com  
+LinkedIn: www.linkedin.com/in/alfonso-davila-3a121087  
+GitHub: github.com/DynMEP  
 
 🌐 Website (Coming Soon): [dynmep.io](http://dynmep.io)  
 📺 YouTube: [@DynMEP](https://youtube.com/@DynMEP)
