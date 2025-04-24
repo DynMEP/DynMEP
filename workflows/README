@@ -2,7 +2,7 @@
 **Automate_Lighting_Fixture_Placement.py** | **Automate_Lighting_Fixture_Placement.dyn**  
 
 Automate NEC 2023-compliant lighting placement with this Python/Dynamo script for Revit 2025, saving 6–10 hours per project. It places fixtures in rooms using grid and boundary logic, supports DIALux CSV integration, and ensures ceiling-hosted installations per NEC 410.36(A). MEP firms benefit from precise fixture positioning, avoiding wall conflicts, with detailed CSV outputs and logs for compliance verification. Available at github.com/DynMEP/DynMEP/tree/main/scripts, this script enhances design accuracy and efficiency, streamlining lighting workflows and delivering code-compliant, high-quality MEP projects with minimal manual effort.  
-
+ 
 - `.py`: For developers, paste into Python Script node.  
 - `.dyn`: Plug-and-play, open in Dynamo.
 
