@@ -108,7 +108,7 @@ Email: davila.alfonso@gmail.com
 LinkedIn: www.linkedin.com/in/alfonso-davila-3a121087  
 GitHub: github.com/DynMEP  
 
-🌐 Website (Coming Soon): [dynmep.io](http://dynmep.io)  
+🌐 Website (Coming Soon): [dynmep.com](http://dynmep.com)  
 📺 YouTube: [@DynMEP](https://youtube.com/@DynMEP)
 
 ---
