@@ -1,124 +1,322 @@
 # 👷‍♂️ DynMEP
 
-Welcome to **DynMEP**! I'm an engineer and automation enthusiast crafting **Dynamo scripts** to turbocharge **Revit MEP** and **BIM** workflows. My mission is to streamline mechanical, electrical, and plumbing design with NEC-compliant tools, saving MEP firms 5–15 hours per project. Built for Revit 2025, these tested scripts, backed by 20+ years of electrical engineering expertise, are hosted at [github.com/DynMEP/DynMEP](https://github.com/DynMEP/DynMEP) under the MIT License. Explore below to automate your BIM projects, reduce errors, and deliver top-notch MEP designs. New scripts are added regularly, so check back often!
+Welcome to **DynMEP**! I'm Alfonso Davila, an electrical engineer and automation enthusiast with 20+ years of experience in power systems and multidisciplinary project leadership. My mission is to revolutionize MEP and BIM workflows through innovative automation tools, computational methods, and renewable energy solutions. From Revit MEP scripts to AI-powered symbol detection and advanced mathematical research, these projects save time, enhance accuracy, and drive sustainability. All repositories are hosted at [github.com/DynMEP](https://github.com/DynMEP) under the MIT License.
 
 ---
 
-## 🔧 What I Do
+## 🌟 About Me
 
-I create Python/Dynamo scripts to accelerate MEP design in Revit, optimizing BIM data handling and ensuring NEC 2023 compliance. From clash detection to lighting placement, my tools boost productivity for engineers, designers, and contractors.
+With 20+ years in electrical engineering specializing in power distribution, MEP design, and sustainable energy systems, I develop cutting-edge tools across multiple domains:
 
-### 🔍 Key Areas of Focus
-- 🚀 **Dynamo Automation**: Streamline MEP tasks with custom scripts.
-- 🧠 **BIM Data Optimization**: Clean, tag, and manage MEP systems.
-- 🛠️ **Revit API**: Precision automation for electrical designs.
-- 🧰 **Smart Families**: Automate placement with MEP logic.
-- 🏗️ **Parametric Design**: Rules-based modeling for efficiency.
-
----
-
-## 📁 Scripts
-
-Below is a growing collection of Revit MEP automation scripts. Each includes a description highlighting time savings, NEC compliance, and MEP benefits.
-
-### 1. Clash Detection (Electrical-HVAC) 🛡️
-**Clash_Detection_Electrical_HVAC_Dynamo.py**  
-Streamline BIM coordination with this Python/Dynamo script, automating clash detection between electrical systems (conduits, cable trays) and HVAC ducts in Revit 2025. Saving 10–15 hours per project, it ensures NEC-compliant designs by identifying conflicts early, reducing costly rework. The script generates detailed CSV reports, enhancing MEP collaboration and project accuracy. With robust error handling and logging, it simplifies troubleshooting for MEP firms. Hosted at [github.com/DynMEP/DynMEP/tree/main/scripts](https://github.com/DynMEP/DynMEP/tree/main/scripts), this tool boosts efficiency, ensuring seamless integration into electrical workflows, delivering high-quality, clash-free designs for modern MEP projects.
-
-### 2. Lighting Fixture Placement 💡
-**Automate_Lighting_Fixture_Placement.py**  
-Automate NEC 2023-compliant lighting placement with this Python/Dynamo script for Revit 2025, saving 6–10 hours per project. It places fixtures in rooms using grid and boundary logic, supports DIALux CSV integration, and ensures ceiling-hosted installations per NEC 410.36(A). MEP firms benefit from precise fixture positioning, avoiding wall conflicts, with detailed CSV outputs and logs for compliance verification. Available at [github.com/DynMEP/DynMEP/tree/main/scripts](https://github.com/DynMEP/DynMEP/tree/main/scripts), this script enhances design accuracy and efficiency, streamlining lighting workflows and delivering code-compliant, high-quality MEP projects with minimal manual effort.
-
-### 3. Receptacle Placement 🔌
-**Receptacle_Placement_Revit.py**  
-This Python/Dynamo script automates NEC-compliant receptacle placement on both wall faces in Revit 2025, saving 6–10 hours per project. By grouping wall segments and ensuring precise spacing, it meets NEC standards, reducing errors in MEP electrical designs. Detailed logs and task dialogs provide transparency, while CSV outputs support documentation. Hosted at [github.com/DynMEP/DynMEP/tree/main/scripts](https://github.com/DynMEP/DynMEP/tree/main/scripts), this tool enhances MEP firm productivity, delivering accurate, code-compliant layouts with minimal effort. Streamline your electrical workflows and achieve high-quality, efficient designs with this proven automation solution.
-
-### 4. Panel Schedule Generator ⚡️
-**Panel_Schedule_Generator_Dynamo.py**  
-Generate NEC-compliant panel schedules in Revit 2025 with this Python/Dynamo script, saving 10–15 hours per project. It automates circuit sorting and voltage correction, producing detailed CSV schedules for MEP electrical designs. With robust error handling, it ensures accurate load and current data, enhancing project reliability. Available at [github.com/DynMEP/DynMEP/tree/main/scripts](https://github.com/DynMEP/DynMEP/tree/main/scripts), this script streamlines MEP workflows, reducing manual effort and ensuring compliance with NEC standards. Boost efficiency and deliver high-quality electrical documentation with this essential tool for modern MEP firms.
-
-### 5. Electrical Load Estimator 📊
-**Electrical_Load_Estimator_Dynamo.py**  
-This Python/Dynamo script automates NEC-compliant load estimation for electrical, HVAC, and lighting systems in Revit 2025, saving 5–8 hours per project. It generates formatted tables and CSV reports, ensuring accurate load calculations for MEP designs. With comprehensive error handling, it minimizes errors, enhancing project accuracy. Hosted at [github.com/DynMEP/DynMEP/tree/main/scripts](https://github.com/DynMEP/DynMEP/tree/main/scripts), this tool streamlines MEP workflows, delivering code-compliant load data with minimal effort. Improve efficiency and ensure high-quality electrical designs with this reliable automation solution for MEP firms.
-
-### 6. Conduit Length Calculator 📏
-**Conduit_Length_Calculator_Dynamo.py**  
-Automate conduit length calculations in Revit 2025 with this Python/Dynamo script, saving 8–12 hours per project. It generates detailed CSV reports for material takeoffs, supporting NEC-compliant MEP cost estimation. Robust error logging ensures reliability, while type and size summaries enhance project planning. Available at [github.com/DynMEP/DynMEP/tree/main/scripts](https://github.com/DynMEP/DynMEP/tree/main/scripts), this script boosts MEP firm efficiency, reducing manual effort and ensuring accurate conduit data. Streamline your electrical workflows and deliver high-quality, cost-effective designs with this essential automation tool.
+- **Revit MEP Automation**: NEC-compliant Dynamo scripts saving 5–15 hours per project
+- **Computer Vision**: YOLO-based AI for automated technical drawing analysis
+- **Renewable Energy**: MATLAB simulations for hybrid solar/wind integration
+- **Computational Mathematics**: Advanced algorithms for additive combinatorics research
+- **Professional Focus**: Power systems, BIM workflows, and green energy solutions
 
 ---
 
-## 🛠️ Installation
+## 📂 Public Repositories
 
-1. **Prerequisites**:
-   - Autodesk Revit 2025
-   - Dynamo 2.17+
-   - Python (IronPython 2.7 or CPython 3)
-   - RevitAPI, RevitServices libraries
+### 1. **DynMEP** - Revit MEP Automation Suite 🔧
+**Repository**: [github.com/DynMEP/DynMEP](https://github.com/DynMEP/DynMEP)
 
-2. **Setup**:
-   - Clone the repo: `git clone https://github.com/DynMEP/DynMEP.git`
-   - Copy scripts to your Dynamo project folder.
-   - Load scripts into Dynamo’s Python Script node.
-   - Ensure Revit model includes relevant elements (e.g., conduits, rooms, panels).
+A comprehensive collection of Python/Dynamo scripts designed to turbocharge Revit MEP workflows with NEC 2023 compliance.
 
-3. **Dependencies**:
-   - Included in Revit/Dynamo (`RevitAPI`, `RevitServices`).
-   - No external packages required.
+**Available Scripts**:
 
----
+#### Clash Detection (Electrical-HVAC) 🛡️
+**File**: `Clash_Detection_Electrical_HVAC_Dynamo.py`  
+Automates clash detection between electrical systems (conduits, cable trays) and HVAC ducts in Revit 2025. Generates detailed CSV reports, identifies conflicts early, and reduces costly rework.
+- **Time Savings**: 10–15 hours per project
+- **Compliance**: NEC-compliant design verification
+- **Output**: CSV reports with detailed clash locations
 
-## 🚀 Usage
+#### Lighting Fixture Placement 💡
+**File**: `Automate_Lighting_Fixture_Placement.py`  
+Places fixtures in rooms using grid and boundary logic with DIALux CSV integration. Ensures ceiling-hosted installations per NEC 410.36(A).
+- **Time Savings**: 6–10 hours per project
+- **Features**: Grid-based placement, wall conflict avoidance
+- **Output**: CSV logs for compliance verification
 
-1. Open Revit 2025 and load your MEP project.
-2. Launch Dynamo and create a new workspace.
-3. Add a Python Script node and paste the desired script.
-4. Connect inputs:
-   - **Clash Detection**: No inputs; runs on model elements.
-   - **Lighting Placement**: Rooms, fixture symbol, optional DIALux CSV.
-   - **Receptacle Placement**: Walls, receptacle family, offset/spacing.
-   - **Panel Schedule**: No inputs; runs on panels.
-   - **Load Estimator**: No inputs; runs on equipment.
-   - **Conduit Calculator**: No inputs; runs on conduits.
-5. Run the script and check Desktop outputs (CSV, logs, guides).
-6. Review script logs for NEC compliance and troubleshooting (e.g., ensure closed room boundaries for Lighting Placement).
+#### Receptacle Placement 🔌
+**File**: `Receptacle_Placement_Revit.py`  
+Automates NEC-compliant receptacle placement on both wall faces with precise spacing calculations.
+- **Time Savings**: 6–10 hours per project
+- **Compliance**: Meets NEC spacing standards
+- **Output**: Detailed logs and CSV documentation
 
-See each script’s header or [wiki](https://github.com/DynMEP/DynMEP/wiki) for detailed guides.
+#### Panel Schedule Generator ⚡️
+**File**: `Panel_Schedule_Generator_Dynamo.py`  
+Generates NEC-compliant panel schedules with automated circuit sorting and voltage correction.
+- **Time Savings**: 10–15 hours per project
+- **Features**: Load and current data validation
+- **Output**: Detailed CSV schedules
 
----
+#### Electrical Load Estimator 📊
+**File**: `Electrical_Load_Estimator_Dynamo.py`  
+Automates load estimation for electrical, HVAC, and lighting systems with NEC compliance.
+- **Time Savings**: 5–8 hours per project
+- **Features**: Comprehensive error handling
+- **Output**: Formatted tables and CSV reports
 
-## 🎯 Benefits
-
-- **Time Savings**: Save 5–15 hours per project, streamlining MEP tasks (aligned with Desapex’s 50% efficiency gains).
-- **NEC Compliance**: Meet NEC 2023 standards (e.g., 410.36(A) for lighting, 210.19(A) for circuits).
-- **MEP Value**: Enhance BIM coordination, reduce rework, and improve accuracy with CSV outputs and robust logging.
-
----
-
-
-📜 License
-Licensed under the MIT License. See [LICENSE](https://github.com/DynMEP/DynMEP/blob/main/LICENSE) for details.
-
-🤝 Let’s Collaborate
-Got a BIM challenge or need custom automation? Explore, fork, or contribute to github.com/DynMEP! Submit pull requests or open issues to enhance these tools. For consulting or custom scripts, reach out via GitHub Issues or direct message.
+#### Conduit Length Calculator 📏
+**File**: `Conduit_Length_Calculator_Dynamo.py`  
+Calculates conduit lengths for material takeoffs and cost estimation.
+- **Time Savings**: 8–12 hours per project
+- **Features**: Type and size summaries
+- **Output**: Detailed CSV reports
 
 ---
 
-Author: Alfonso Davila  
-Email: davila.alfonso@gmail.com  
-LinkedIn: www.linkedin.com/in/alfonso-davila-3a121087  
-GitHub: github.com/DynMEP  
+### 2. **YOLOplan** - AI-Powered Symbol Detection 🤖
+**Repository**: [github.com/DynMEP/YOLOplan](https://github.com/DynMEP/YOLOplan)
 
-🌐 Website (Coming Soon): [dynmep.com](http://dynmep.com)  
-📺 YouTube: [@DynMEP](https://youtube.com/@DynMEP)
+YOLOplan revolutionizes technical drawing analysis by automating symbol detection and counting using advanced YOLO object detection. It processes PDF, image, and CAD formats with exceptional accuracy, even in noisy or complex plans.
+
+**Key Features**:
+- **Automatic Detection**: Identifies and counts electrical, HVAC, plumbing, and architectural symbols
+- **Multi-Format Support**: Works with PDF, images, and CAD files
+- **Robust Performance**: Handles background noise, varied symbol sizes, and rotations
+- **Custom Training**: Train models for your own symbols
+- **Export Options**: CSV, Excel, JSON, or annotated images with bounding boxes
+
+**Applications**:
+- Electrical and MEP engineering takeoff
+- Construction estimation
+- BIM and digital building modeling
+- Facility management
+- QA/QC for technical plans
+
+**Technology Stack**:
+- Python 3.8+
+- Ultralytics YOLO
+- OpenCV, pdf2image, PyMuPDF
+
+**Project Structure**:
+```
+YOLOplan/
+├── yolo_plan_core/        # Common utilities
+├── yolo_plan_electric/    # Electrical symbols models
+├── yolo_plan_hvac/        # HVAC models (future)
+├── datasets/              # Training datasets
+├── notebooks/             # Demo notebooks
+└── demo_takeoff_electric.ipynb
+```
 
 ---
 
-> _“Let’s build smarter MEP workflows together! 🚧”_
+### 3. **GreenPowerHub** - Renewable Energy Integration 🌿⚡
+**Repository**: [github.com/DynMEP/GreenPowerHub](https://github.com/DynMEP/GreenPowerHub)
 
+GreenPowerHub serves as a comprehensive hub for renewable energy integration tools, simulations, and resources. Focused on advancing sustainable energy solutions through power systems expertise and advanced simulations.
 
+**Mission**:
+- Develop innovative tools for renewable energy integration
+- Enhance power system efficiency through data-driven simulations
+- Foster global collaboration for sustainable practices
+- Drive positive impact with cutting-edge energy solutions
+
+**Current Scripts**:
+
+#### Hybrid Renewable Integration Simulator
+**File**: `Hybrid_Renewable_Integration.m`  
+**Released**: October 07, 2025
+
+A MATLAB script simulating hybrid solar PV and wind energy systems integrated into power distribution grids.
+
+**Features**:
+- Calculates power outputs based on irradiance, temperature, and wind speed
+- Applies basic MPPT (Maximum Power Point Tracking) approximation
+- Estimates daily energy yield and grid contribution
+- Saves results to CSV for MEP integration
+
+**Benefits**:
+- **Time Savings**: 5–10 hours per analysis
+- **Compliance**: Supports NEC 2023-compliant designs
+- **Planning**: Aids renewable project feasibility studies
+
+**Planned Development**:
+- **Renewable_Load_Optimizer.py**: Python script for load distribution optimization with Dynamo integration
+- NEC 220 demand factor calculations
+- Enhanced grid reliability analysis
+
+**Requirements**:
+- MATLAB (base version, no toolboxes required)
+- Python 3.x (for future scripts)
+- Optional: Revit/Dynamo for MEP integration
+
+---
+
+### 4. **ZeroSumFreeSets-Z4** - Computational Mathematics 🔬
+**Repository**: [github.com/DynMEP/ZeroSumFreeSets-Z4](https://github.com/DynMEP/ZeroSumFreeSets-Z4)
+
+An advanced computational mathematics project providing explicit constructions of maximal 3-zero-sum-free subsets in (ℤ/4ℤ)ⁿ. This addresses an open problem in additive combinatorics posed by Nathan Kaplan in the 2014 CANT problem session.
+
+**Mathematical Problem**:
+Find the largest subset H ⊆ (ℤ/4ℤ)ⁿ such that there are no distinct x, y, z ∈ H with x + y + z ≡ 0 (mod 4) (pointwise vector addition).
+
+**Breakthrough Results**:
+- **Proven Optimal Density**: 0.5 for all n
+- **Universal Construction**: First coordinate odd (1 or 3 mod 4)
+- **Explicit Sizes**: 
+  - n=5: 512 vectors (50% of 1024)
+  - n=6: 2048 vectors (50% of 4096)
+  - n=7: 8192 vectors (50% of 16384)
+
+**Methodology**:
+AI-assisted hybrid greedy-genetic algorithm refined with Grok (xAI), inspired by combinatorial searches like FunSearch.
+
+**Algorithm Evolution**:
+1. **Baseline** (`baseline_script.py`): Initial greedy approach (176 for n=5)
+2. **Refined** (`refined_script.py`): Enhanced with probes (512 for n=5)
+3. **Omni-Optimized v5.0.0** (`omni_optimized_hybrid_discovery_v5.py`):
+   - Universal optimal construction
+   - Stratified sampling and adaptive mutations
+   - GPU acceleration with batching (n=8+)
+   - Early stopping and profile chaining
+
+**Features**:
+- Exhaustive verification of 3-zero-sum-free property
+- JSON export of full subsets with metadata
+- GPU support for large-scale computation
+- Comprehensive documentation and references
+
+**Installation**:
+```bash
+git clone https://github.com/DynMEP/ZeroSumFreeSets-Z4.git
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+python3 omni_optimized_hybrid_discovery_v5.py --n 6 7 --mod 4 --profile all
+```
+
+**Academic References**:
+- Y. Caro, A weighted Erdős–Ginzburg–Ziv theorem, J. Combin. Theory Ser. A (1997)
+- W.D. Gao and A. Geroldinger, Zero-sum problems survey, Expo. Math. (2006)
+- S.J. Miller et al., CANT Problem Sessions (2017)
+- MathOverflow discussion thread available
+
+**Release**: v5.0.0 (August 28, 2025) - Universal construction with GPU support
+
+---
+
+## 🔧 Installation & Usage
+
+### General Prerequisites
+- **Revit Scripts**: Autodesk Revit 2025, Dynamo 2.17+, Python (IronPython 2.7 or CPython 3)
+- **YOLOplan**: Python 3.8+, Ultralytics YOLO, OpenCV
+- **GreenPowerHub**: MATLAB (base version) or Python 3.x
+- **ZeroSumFreeSets**: Python 3.8+, optional PyTorch for GPU
+
+### Quick Start - DynMEP Scripts
+```bash
+git clone https://github.com/DynMEP/DynMEP.git
+```
+1. Open Revit 2025 and load your MEP project
+2. Launch Dynamo and create a new workspace
+3. Add a Python Script node and paste the desired script
+4. Connect appropriate inputs (see individual script documentation)
+5. Run and check Desktop outputs (CSV, logs)
+
+### Quick Start - YOLOplan
+```bash
+git clone https://github.com/DynMEP/YOLOplan.git
+cd YOLOplan
+pip install -r requirements.txt
+```
+Run detection on your technical drawings and export results to CSV/Excel.
+
+### Quick Start - GreenPowerHub
+```bash
+git clone https://github.com/DynMEP/GreenPowerHub.git
+```
+Open `Hybrid_Renewable_Integration.m` in MATLAB, adjust parameters, and run.
+
+### Quick Start - ZeroSumFreeSets
+```bash
+git clone https://github.com/DynMEP/ZeroSumFreeSets-Z4.git
+python3 omni_optimized_hybrid_discovery_v5.py --n 6 --runs 20
+```
+
+---
+
+## 🎯 Combined Benefits
+
+**Time Savings Across Projects**:
+- **Revit MEP Scripts**: 5–15 hours per project
+- **YOLOplan**: Automated symbol counting (hours to minutes)
+- **GreenPowerHub**: 5–10 hours per renewable energy analysis
+- **ZeroSumFreeSets**: Breakthrough mathematical research results
+
+**Professional Value**:
+- **NEC Compliance**: All electrical scripts meet NEC 2023 standards
+- **Accuracy**: Reduce errors through automation
+- **Innovation**: Cutting-edge AI and mathematical methods
+- **Sustainability**: Support renewable energy adoption
+- **Open Source**: MIT License for maximum collaboration
+
+**Industry Impact**:
+- MEP engineering automation
+- BIM coordination excellence
+- Renewable energy integration
+- Academic research advancement
+- Construction estimation efficiency
+
+---
+
+## 📜 License
+
+All repositories are licensed under the MIT License. See individual repository LICENSE files for details.
+
+---
+
+## 🤝 Collaboration & Support
+
+**Contribute**: Fork any repository, submit pull requests, or open issues to enhance these tools.
+
+**Custom Development**: Need specialized automation, AI models, or renewable energy simulations? Contact me for consulting and custom solutions.
+
+**Support**: Report issues via GitHub Issues on the respective repositories.
+
+**Community**: Join the growing community of engineers, developers, and researchers using these tools worldwide.
+
+---
+
+## 📞 Contact
+
+**Author**: Alfonso Antonio Dávila Vera  
+**Email**: davila.alfonso@gmail.com  
+**LinkedIn**: [www.linkedin.com/in/alfonso-davila-3a121087](http://www.linkedin.com/in/alfonso-davila-3a121087)  
+**GitHub**: [github.com/DynMEP](https://github.com/DynMEP)  
+**YouTube**: [@DynMEP](https://youtube.com/@DynMEP)  
+**Website** (Coming Soon): [dynmep.com](http://dynmep.com)
+
+---
+
+## 🌟 Featured Achievements
+
+- **20+ Years**: Electrical engineering expertise
+- **Multiple Domains**: MEP automation, AI/ML, renewable energy, mathematics
+- **Open Source**: All tools freely available under MIT License
+- **Innovation**: Combining traditional engineering with cutting-edge technology
+- **Impact**: Serving MEP firms, engineers, and researchers globally
+
+---
+
+> _"Let's build smarter MEP workflows, advance renewable energy, and push the boundaries of computational research together! 🚧🌿🔬"_
+
+---
 
 <p><a href="https://www.buymeacoffee.com/h1pot"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="h1pot" /></a></p><br><br>
 
+---
 
+## 🗺️ Repository Navigation
 
+| Repository | Focus | Status | Key Technology |
+|------------|-------|--------|----------------|
+| [DynMEP](https://github.com/DynMEP/DynMEP) | Revit MEP Automation | ✅ Active | Python/Dynamo |
+| [YOLOplan](https://github.com/DynMEP/YOLOplan) | AI Symbol Detection | ✅ Active | YOLO/Computer Vision |
+| [GreenPowerHub](https://github.com/DynMEP/GreenPowerHub) | Renewable Energy | ✅ Active | MATLAB/Python |
+| [ZeroSumFreeSets-Z4](https://github.com/DynMEP/ZeroSumFreeSets-Z4) | Computational Math | ✅ Active | Python/GPU Computing |
 
+**New scripts and repositories are added regularly - check back often!**
