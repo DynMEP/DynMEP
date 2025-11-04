@@ -9,8 +9,9 @@ Welcome to **DynMEP**! I'm Alfonso Davila, an electrical engineer and automation
 With 20+ years in electrical engineering specializing in power distribution, MEP design, and sustainable energy systems, I develop cutting-edge tools across multiple domains:
 
 - **Revit MEP Automation**: NEC-compliant Dynamo scripts saving 5–15 hours per project
+- **Renewable Energy**: Solar+storage optimization and hybrid system integration
 - **Computer Vision**: YOLO-based AI for automated technical drawing analysis
-- **Renewable Energy**: MATLAB simulations for hybrid solar/wind integration
+- **Renewable Energy Simulation**: MATLAB simulations for hybrid solar/wind integration
 - **Motor Control Systems**: VFD simulation and analysis for industrial applications
 - **Reinforcement Learning**: Deep Q-Networks for microgrid energy optimization
 - **Computational Mathematics**: Advanced algorithms for additive combinatorics research
@@ -303,6 +304,58 @@ python cli.py evaluate --auto-latest --scenarios 100 --plot
 
 ---
 
+---
+
+### 7. **SOLARA** - Solar Analytics & Revenue Advisor ☀️
+**Repository**: [github.com/DynMEP/solara](https://github.com/DynMEP/solara)
+
+Professional-grade photovoltaic and battery energy storage system optimization platform. Built on NREL's validated PySAM models, SOLARA delivers capabilities comparable to commercial tools like HOMER Pro and PVsyst - completely free and open source.
+
+**Key Features**:
+- **NREL-Validated**: Built on PySAM (same engine used by national labs and Fortune 500s)
+- **Automated Weather Data**: NREL NSRDB integration with caching and retry logic
+- **Advanced Optimization**: Genetic (NSGA-II), Bayesian, ML Surrogate, Differential Evolution
+- **Interactive Dashboard**: Real-time Dash/Plotly UI with live optimization tracking
+- **NEC 2023 Compliant**: Automated compliance checking for Articles 690, 705, 706
+- **Production-Ready**: Comprehensive test suite (11 automated tests)
+
+**Optimization Methods**:
+- Parametric grid search for rapid design space exploration
+- NSGA-II genetic algorithm for Pareto-optimal solutions
+- Gaussian Process Bayesian optimization for sample efficiency
+- Gradient Boosting ML surrogate with Latin Hypercube Sampling
+- Differential Evolution for global optimization
+
+**Real Value**:
+- **Zero Cost**: vs $600-8,000/year for commercial tools
+- **Time Savings**: 15-40 hours per project through automation
+- **Research-Grade**: NREL-validated accuracy meets practical efficiency
+
+**Perfect For**:
+- Energy consultants doing techno-economic analysis
+- C&I demand charge optimization projects
+- Researchers needing validated solar+storage models
+- Utilities planning distributed energy resources
+- MEP engineers designing NEC-compliant PV systems
+
+**Technology Stack**:
+- Python 3.9+
+- PySAM 5.0+ (NREL)
+- Plotly, Dash (visualization)
+- Multiple optimization libraries (pymoo, scikit-optimize, scikit-learn)
+
+**Quick Start**:
+```bash
+git clone https://github.com/DynMEP/solara.git
+cd solara
+pip install -r requirements.txt
+python solara.py --config examples/example_config.json
+```
+
+**Version**: 3.1.1 
+
+---
+
 ### 6. **ZeroSumFreeSets-Z4** - Computational Mathematics 🔬
 **Repository**: [github.com/DynMEP/ZeroSumFreeSets-Z4](https://github.com/DynMEP/ZeroSumFreeSets-Z4)
 
@@ -358,6 +411,7 @@ python3 omni_optimized_hybrid_discovery_v5.py --n 6 7 --mod 4 --profile all
 
 ### General Prerequisites
 - **Revit Scripts**: Autodesk Revit 2025, Dynamo 2.17+, Python (IronPython 2.7 or CPython 3)
+- **SOLARA**: Python 3.9+, PySAM 5.0+, Plotly, Dash
 - **YOLOplan**: Python 3.8+, Ultralytics YOLO, OpenCV
 - **GreenPowerHub**: MATLAB (base version) or Python 3.x
 - **vfd-motor-simulation**: Python 3.x, NumPy, SciPy, Matplotlib
@@ -372,6 +426,14 @@ git clone https://github.com/DynMEP/DynMEP.git
 3. Add a Python Script node and paste the desired script
 4. Connect appropriate inputs (see individual script documentation)
 5. Run and check Desktop outputs (CSV, logs)
+
+**SOLARA**:
+```bash
+git clone https://github.com/DynMEP/solara.git
+cd solara
+pip install -r requirements.txt
+python solara.py --config examples/example_config.json --dashboard
+```
 
 ### Quick Start - YOLOplan
 ```bash
@@ -408,6 +470,7 @@ python3 omni_optimized_hybrid_discovery_v5.py --n 6 --runs 20
 
 **Time Savings Across Projects**:
 - **Revit MEP Scripts**: 5–15 hours per project
+- **SOLARA**: 15-40 hours per solar+storage project
 - **YOLOplan**: Automated symbol counting (hours to minutes)
 - **GreenPowerHub**: 5–10 hours per renewable energy analysis
 - **vfd-motor-simulation**: Instant VFD analysis vs. manual calculations (hours saved)
@@ -424,10 +487,11 @@ python3 omni_optimized_hybrid_discovery_v5.py --n 6 --runs 20
 **Industry Impact**:
 - MEP engineering automation
 - BIM coordination excellence
-- Renewable energy integration
+- Renewable energy integration and optimization
 - Motor control and VFD system design
-- Academic research advancement
+- Microgrid resilience and AI control
 - Construction estimation efficiency
+- Academic research advancement
 
 ---
 
@@ -441,7 +505,7 @@ All repositories are licensed under the MIT License. See individual repository L
 
 **Contribute**: Fork any repository, submit pull requests, or open issues to enhance these tools.
 
-**Custom Development**: Need specialized automation, AI models, or renewable energy simulations? Contact me for consulting and custom solutions.
+**Custom Development**: Need specialized automation, AI models, renewable energy simulations, or solar optimization? Contact me for consulting and custom solutions.
 
 **Support**: Report issues via GitHub Issues on the respective repositories.
 
@@ -463,11 +527,11 @@ All repositories are licensed under the MIT License. See individual repository L
 ## 🌟 Featured Achievements
 
 - **20+ Years**: Electrical engineering expertise
-- **Multiple Domains**: MEP automation, AI/ML, renewable energy, mathematics
+- **7 Major Projects**: From Revit automation to solar optimization
 - **Open Source**: All tools freely available under MIT License
 - **Innovation**: Combining traditional engineering with cutting-edge technology
 - **Impact**: Serving MEP firms, engineers, and researchers globally
-- **Validated**: IEEE standards compliance and field-tested results
+- **Validated**: NREL, IEEE standards compliance and field-tested results
 
 ---
 
@@ -484,6 +548,7 @@ All repositories are licensed under the MIT License. See individual repository L
 | Repository | Focus | Status | Key Technology |
 |------------|-------|--------|----------------|
 | [DynMEP](https://github.com/DynMEP/DynMEP) | Revit MEP Automation | ✅ Active | Python/Dynamo |
+| [solara](https://github.com/DynMEP/solara) | Solar+Storage Optimization | ✅ Active | Python/PySAM/Plotly |
 | [YOLOplan](https://github.com/DynMEP/YOLOplan) | AI Symbol Detection | ✅ Active | YOLO/Computer Vision |
 | [GreenPowerHub](https://github.com/DynMEP/GreenPowerHub) | Renewable Energy | ✅ Active | MATLAB/Python |
 | [vfd-motor-simulation](https://github.com/DynMEP/vfd-motor-simulation) | VFD Motor Analysis | ✅ Active | Python/NumPy/SciPy |
