@@ -8,67 +8,65 @@ Welcome to **DynMEP**! I'm Alfonso Davila, an electrical engineer and automation
 
 With 20+ years in electrical engineering specializing in power distribution, MEP design, and sustainable energy systems, I develop cutting-edge tools across multiple domains:
 
-- **Revit MEP Automation**: NEC-compliant Dynamo scripts saving 5–15 hours per project
 - **Renewable Energy**: Solar+storage optimization and hybrid system integration
 - **Computer Vision**: YOLO-based AI for automated technical drawing analysis
 - **Renewable Energy Simulation**: MATLAB simulations for hybrid solar/wind integration
 - **Motor Control Systems**: VFD simulation and analysis for industrial applications
 - **Reinforcement Learning**: Deep Q-Networks for microgrid energy optimization
-- **Computational Mathematics**: Advanced algorithms for additive combinatorics research
+- **Revit MEP Automation**: NEC-compliant Dynamo scripts saving 5–15 hours per project
 - **Professional Focus**: Power systems, BIM workflows, and green energy solutions
 
 ---
 
 ## 📂 Public Repositories
 
-### 1. **DynMEP** - Revit MEP Automation Suite 🔧
-**Repository**: [github.com/DynMEP/DynMEP](https://github.com/DynMEP/DynMEP)
+### 1. **SOLARA** - Solar Analytics & Revenue Advisor ☀️
+**Repository**: [github.com/DynMEP/solara](https://github.com/DynMEP/solara)
 
-A comprehensive collection of Python/Dynamo scripts designed to turbocharge Revit MEP workflows with NEC 2023 compliance.
+Professional-grade photovoltaic and battery energy storage system optimization platform. Built on NREL's validated PySAM models, SOLARA delivers capabilities comparable to commercial tools like HOMER Pro and PVsyst - completely free and open source.
 
-**Available Scripts**:
+**Key Features**:
+- **NREL-Validated**: Built on PySAM (same engine used by national labs and Fortune 500s)
+- **Automated Weather Data**: NREL NSRDB integration with caching and retry logic
+- **Advanced Optimization**: Genetic (NSGA-II), Bayesian, ML Surrogate, Differential Evolution
+- **Interactive Dashboard**: Real-time Dash/Plotly UI with live optimization tracking
+- **NEC 2023 Compliant**: Automated compliance checking for Articles 690, 705, 706
+- **Production-Ready**: Comprehensive test suite (11 automated tests)
 
-#### Clash Detection (Electrical-HVAC) 🛡️
-**File**: `Clash_Detection_Electrical_HVAC_Dynamo.py`  
-Automates clash detection between electrical systems (conduits, cable trays) and HVAC ducts in Revit 2025. Generates detailed CSV reports, identifies conflicts early, and reduces costly rework.
-- **Time Savings**: 10–15 hours per project
-- **Compliance**: NEC-compliant design verification
-- **Output**: CSV reports with detailed clash locations
+**Optimization Methods**:
+- Parametric grid search for rapid design space exploration
+- NSGA-II genetic algorithm for Pareto-optimal solutions
+- Gaussian Process Bayesian optimization for sample efficiency
+- Gradient Boosting ML surrogate with Latin Hypercube Sampling
+- Differential Evolution for global optimization
 
-#### Lighting Fixture Placement 💡
-**File**: `Automate_Lighting_Fixture_Placement.py`  
-Places fixtures in rooms using grid and boundary logic with DIALux CSV integration. Ensures ceiling-hosted installations per NEC 410.36(A).
-- **Time Savings**: 6–10 hours per project
-- **Features**: Grid-based placement, wall conflict avoidance
-- **Output**: CSV logs for compliance verification
+**Real Value**:
+- **Zero Cost**: vs $600-8,000/year for commercial tools
+- **Time Savings**: 15-40 hours per project through automation
+- **Research-Grade**: NREL-validated accuracy meets practical efficiency
 
-#### Receptacle Placement 🔌
-**File**: `Receptacle_Placement_Revit.py`  
-Automates NEC-compliant receptacle placement on both wall faces with precise spacing calculations.
-- **Time Savings**: 6–10 hours per project
-- **Compliance**: Meets NEC spacing standards
-- **Output**: Detailed logs and CSV documentation
+**Perfect For**:
+- Energy consultants doing techno-economic analysis
+- C&I demand charge optimization projects
+- Researchers needing validated solar+storage models
+- Utilities planning distributed energy resources
+- MEP engineers designing NEC-compliant PV systems
 
-#### Panel Schedule Generator ⚡️
-**File**: `Panel_Schedule_Generator_Dynamo.py`  
-Generates NEC-compliant panel schedules with automated circuit sorting and voltage correction.
-- **Time Savings**: 10–15 hours per project
-- **Features**: Load and current data validation
-- **Output**: Detailed CSV schedules
+**Technology Stack**:
+- Python 3.9+
+- PySAM 5.0+ (NREL)
+- Plotly, Dash (visualization)
+- Multiple optimization libraries (pymoo, scikit-optimize, scikit-learn)
 
-#### Electrical Load Estimator 📊
-**File**: `Electrical_Load_Estimator_Dynamo.py`  
-Automates load estimation for electrical, HVAC, and lighting systems with NEC compliance.
-- **Time Savings**: 5–8 hours per project
-- **Features**: Comprehensive error handling
-- **Output**: Formatted tables and CSV reports
+**Quick Start**:
+```bash
+git clone https://github.com/DynMEP/solara.git
+cd solara
+pip install -r requirements.txt
+python solara.py --config examples/example_config.json
+```
 
-#### Conduit Length Calculator 📏
-**File**: `Conduit_Length_Calculator_Dynamo.py`  
-Calculates conduit lengths for material takeoffs and cost estimation.
-- **Time Savings**: 8–12 hours per project
-- **Features**: Type and size summaries
-- **Output**: Detailed CSV reports
+**Version**: 3.1.1 
 
 ---
 
@@ -304,130 +302,67 @@ python cli.py evaluate --auto-latest --scenarios 100 --plot
 
 ---
 
----
+### 6. **DynMEP** - Revit MEP Automation Suite 🔧
+**Repository**: [github.com/DynMEP/DynMEP](https://github.com/DynMEP/DynMEP)
 
-### 7. **SOLARA** - Solar Analytics & Revenue Advisor ☀️
-**Repository**: [github.com/DynMEP/solara](https://github.com/DynMEP/solara)
+A comprehensive collection of Python/Dynamo scripts designed to turbocharge Revit MEP workflows with NEC 2023 compliance.
 
-Professional-grade photovoltaic and battery energy storage system optimization platform. Built on NREL's validated PySAM models, SOLARA delivers capabilities comparable to commercial tools like HOMER Pro and PVsyst - completely free and open source.
+**Available Scripts**:
 
-**Key Features**:
-- **NREL-Validated**: Built on PySAM (same engine used by national labs and Fortune 500s)
-- **Automated Weather Data**: NREL NSRDB integration with caching and retry logic
-- **Advanced Optimization**: Genetic (NSGA-II), Bayesian, ML Surrogate, Differential Evolution
-- **Interactive Dashboard**: Real-time Dash/Plotly UI with live optimization tracking
-- **NEC 2023 Compliant**: Automated compliance checking for Articles 690, 705, 706
-- **Production-Ready**: Comprehensive test suite (11 automated tests)
+#### Clash Detection (Electrical-HVAC) 🛡️
+**File**: `Clash_Detection_Electrical_HVAC_Dynamo.py`  
+Automates clash detection between electrical systems (conduits, cable trays) and HVAC ducts in Revit 2025. Generates detailed CSV reports, identifies conflicts early, and reduces costly rework.
+- **Time Savings**: 10–15 hours per project
+- **Compliance**: NEC-compliant design verification
+- **Output**: CSV reports with detailed clash locations
 
-**Optimization Methods**:
-- Parametric grid search for rapid design space exploration
-- NSGA-II genetic algorithm for Pareto-optimal solutions
-- Gaussian Process Bayesian optimization for sample efficiency
-- Gradient Boosting ML surrogate with Latin Hypercube Sampling
-- Differential Evolution for global optimization
+#### Lighting Fixture Placement 💡
+**File**: `Automate_Lighting_Fixture_Placement.py`  
+Places fixtures in rooms using grid and boundary logic with DIALux CSV integration. Ensures ceiling-hosted installations per NEC 410.36(A).
+- **Time Savings**: 6–10 hours per project
+- **Features**: Grid-based placement, wall conflict avoidance
+- **Output**: CSV logs for compliance verification
 
-**Real Value**:
-- **Zero Cost**: vs $600-8,000/year for commercial tools
-- **Time Savings**: 15-40 hours per project through automation
-- **Research-Grade**: NREL-validated accuracy meets practical efficiency
+#### Receptacle Placement 🔌
+**File**: `Receptacle_Placement_Revit.py`  
+Automates NEC-compliant receptacle placement on both wall faces with precise spacing calculations.
+- **Time Savings**: 6–10 hours per project
+- **Compliance**: Meets NEC spacing standards
+- **Output**: Detailed logs and CSV documentation
 
-**Perfect For**:
-- Energy consultants doing techno-economic analysis
-- C&I demand charge optimization projects
-- Researchers needing validated solar+storage models
-- Utilities planning distributed energy resources
-- MEP engineers designing NEC-compliant PV systems
+#### Panel Schedule Generator ⚡️
+**File**: `Panel_Schedule_Generator_Dynamo.py`  
+Generates NEC-compliant panel schedules with automated circuit sorting and voltage correction.
+- **Time Savings**: 10–15 hours per project
+- **Features**: Load and current data validation
+- **Output**: Detailed CSV schedules
 
-**Technology Stack**:
-- Python 3.9+
-- PySAM 5.0+ (NREL)
-- Plotly, Dash (visualization)
-- Multiple optimization libraries (pymoo, scikit-optimize, scikit-learn)
+#### Electrical Load Estimator 📊
+**File**: `Electrical_Load_Estimator_Dynamo.py`  
+Automates load estimation for electrical, HVAC, and lighting systems with NEC compliance.
+- **Time Savings**: 5–8 hours per project
+- **Features**: Comprehensive error handling
+- **Output**: Formatted tables and CSV reports
 
-**Quick Start**:
-```bash
-git clone https://github.com/DynMEP/solara.git
-cd solara
-pip install -r requirements.txt
-python solara.py --config examples/example_config.json
-```
-
-**Version**: 3.1.1 
-
----
-
-### 6. **ZeroSumFreeSets-Z4** - Computational Mathematics 🔬
-**Repository**: [github.com/DynMEP/ZeroSumFreeSets-Z4](https://github.com/DynMEP/ZeroSumFreeSets-Z4)
-
-An advanced computational mathematics project providing explicit constructions of maximal 3-zero-sum-free subsets in (ℤ/4ℤ)ⁿ. This addresses an open problem in additive combinatorics posed by Nathan Kaplan in the 2014 CANT problem session.
-
-**Mathematical Problem**:
-Find the largest subset H ⊆ (ℤ/4ℤ)ⁿ such that there are no distinct x, y, z ∈ H with x + y + z ≡ 0 (mod 4) (pointwise vector addition).
-
-**Breakthrough Results**:
-- **Proven Optimal Density**: 0.5 for all n
-- **Universal Construction**: First coordinate odd (1 or 3 mod 4)
-- **Explicit Sizes**: 
-  - n=5: 512 vectors (50% of 1024)
-  - n=6: 2048 vectors (50% of 4096)
-  - n=7: 8192 vectors (50% of 16384)
-
-**Methodology**:
-AI-assisted hybrid greedy-genetic algorithm refined with Grok (xAI), inspired by combinatorial searches like FunSearch.
-
-**Algorithm Evolution**:
-1. **Baseline** (`baseline_script.py`): Initial greedy approach (176 for n=5)
-2. **Refined** (`refined_script.py`): Enhanced with probes (512 for n=5)
-3. **Omni-Optimized v5.0.0** (`omni_optimized_hybrid_discovery_v5.py`):
-   - Universal optimal construction
-   - Stratified sampling and adaptive mutations
-   - GPU acceleration with batching (n=8+)
-   - Early stopping and profile chaining
-
-**Features**:
-- Exhaustive verification of 3-zero-sum-free property
-- JSON export of full subsets with metadata
-- GPU support for large-scale computation
-- Comprehensive documentation and references
-
-**Installation**:
-```bash
-git clone https://github.com/DynMEP/ZeroSumFreeSets-Z4.git
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
-python3 omni_optimized_hybrid_discovery_v5.py --n 6 7 --mod 4 --profile all
-```
-
-**Academic References**:
-- Y. Caro, A weighted Erdős–Ginzburg–Ziv theorem, J. Combin. Theory Ser. A (1997)
-- W.D. Gao and A. Geroldinger, Zero-sum problems survey, Expo. Math. (2006)
-- S.J. Miller et al., CANT Problem Sessions (2017)
-- MathOverflow discussion thread available
-
-**Release**: v5.0.0 (August 28, 2025) - Universal construction with GPU support
+#### Conduit Length Calculator 📏
+**File**: `Conduit_Length_Calculator_Dynamo.py`  
+Calculates conduit lengths for material takeoffs and cost estimation.
+- **Time Savings**: 8–12 hours per project
+- **Features**: Type and size summaries
+- **Output**: Detailed CSV reports
 
 ---
 
 ## 🔧 Installation & Usage
 
 ### General Prerequisites
-- **Revit Scripts**: Autodesk Revit 2025, Dynamo 2.17+, Python (IronPython 2.7 or CPython 3)
 - **SOLARA**: Python 3.9+, PySAM 5.0+, Plotly, Dash
 - **YOLOplan**: Python 3.8+, Ultralytics YOLO, OpenCV
 - **GreenPowerHub**: MATLAB (base version) or Python 3.x
 - **vfd-motor-simulation**: Python 3.x, NumPy, SciPy, Matplotlib
-- **ZeroSumFreeSets**: Python 3.8+, optional PyTorch for GPU
+- **Revit Scripts**: Autodesk Revit 2025, Dynamo 2.17+, Python (IronPython 2.7 or CPython 3)
 
-### Quick Start - DynMEP Scripts
-```bash
-git clone https://github.com/DynMEP/DynMEP.git
-```
-1. Open Revit 2025 and load your MEP project
-2. Launch Dynamo and create a new workspace
-3. Add a Python Script node and paste the desired script
-4. Connect appropriate inputs (see individual script documentation)
-5. Run and check Desktop outputs (CSV, logs)
-
-**SOLARA**:
+### Quick Start - SOLARA:
 ```bash
 git clone https://github.com/DynMEP/solara.git
 cd solara
@@ -458,24 +393,27 @@ python vfd_simulation_v3.py
 ```
 Customize motor parameters (HP, voltage, poles) and load types in the configuration section.
 
-### Quick Start - ZeroSumFreeSets
+### Quick Start - DynMEP Scripts:
 ```bash
-git clone https://github.com/DynMEP/ZeroSumFreeSets-Z4.git
-python3 omni_optimized_hybrid_discovery_v5.py --n 6 --runs 20
+git clone https://github.com/DynMEP/DynMEP.git
 ```
+1. Open Revit 2025 and load your MEP project
+2. Launch Dynamo and create a new workspace
+3. Add a Python Script node and paste the desired script
+4. Connect appropriate inputs (see individual script documentation)
+5. Run and check Desktop outputs (CSV, logs)
 
 ---
 
 ## 🎯 Combined Benefits
 
 **Time Savings Across Projects**:
-- **Revit MEP Scripts**: 5–15 hours per project
 - **SOLARA**: 15-40 hours per solar+storage project
 - **YOLOplan**: Automated symbol counting (hours to minutes)
 - **GreenPowerHub**: 5–10 hours per renewable energy analysis
 - **vfd-motor-simulation**: Instant VFD analysis vs. manual calculations (hours saved)
 - **Dynamic Microgrid**: AI-powered energy management with 4.3-year payback
-- **ZeroSumFreeSets**: Breakthrough mathematical research results
+- **Revit MEP Scripts**: 5–15 hours per project
 
 **Professional Value**:
 - **NEC Compliance**: All electrical scripts meet NEC 2023 standards
@@ -485,12 +423,12 @@ python3 omni_optimized_hybrid_discovery_v5.py --n 6 --runs 20
 - **Open Source**: MIT License for maximum collaboration
 
 **Industry Impact**:
-- MEP engineering automation
 - BIM coordination excellence
 - Renewable energy integration and optimization
 - Motor control and VFD system design
 - Microgrid resilience and AI control
 - Construction estimation efficiency
+- MEP engineering automation
 - Academic research advancement
 
 ---
@@ -553,6 +491,5 @@ All repositories are licensed under the MIT License. See individual repository L
 | [GreenPowerHub](https://github.com/DynMEP/GreenPowerHub) | Renewable Energy | ✅ Active | MATLAB/Python |
 | [vfd-motor-simulation](https://github.com/DynMEP/vfd-motor-simulation) | VFD Motor Analysis | ✅ Active | Python/NumPy/SciPy |
 | [dynamic-microgrid-resilience](https://github.com/DynMEP/dynamic-microgrid-resilience) | Microgrid AI Control | ✅ Active | PyTorch/Deep RL |
-| [ZeroSumFreeSets-Z4](https://github.com/DynMEP/ZeroSumFreeSets-Z4) | Computational Math | ✅ Active | Python/GPU Computing |
 
 **New scripts and repositories are added regularly - check back often!**
