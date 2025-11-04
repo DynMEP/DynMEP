@@ -485,11 +485,11 @@ All repositories are licensed under the MIT License. See individual repository L
 
 | Repository | Focus | Status | Key Technology |
 |------------|-------|--------|----------------|
-| [DynMEP](https://github.com/DynMEP/DynMEP) | Revit MEP Automation | ✅ Active | Python/Dynamo |
 | [solara](https://github.com/DynMEP/solara) | Solar+Storage Optimization | ✅ Active | Python/PySAM/Plotly |
 | [YOLOplan](https://github.com/DynMEP/YOLOplan) | AI Symbol Detection | ✅ Active | YOLO/Computer Vision |
 | [GreenPowerHub](https://github.com/DynMEP/GreenPowerHub) | Renewable Energy | ✅ Active | MATLAB/Python |
 | [vfd-motor-simulation](https://github.com/DynMEP/vfd-motor-simulation) | VFD Motor Analysis | ✅ Active | Python/NumPy/SciPy |
 | [dynamic-microgrid-resilience](https://github.com/DynMEP/dynamic-microgrid-resilience) | Microgrid AI Control | ✅ Active | PyTorch/Deep RL |
+| [DynMEP](https://github.com/DynMEP/DynMEP) | Revit MEP Automation | ✅ Active | Python/Dynamo |
 
 **New scripts and repositories are added regularly - check back often!**
