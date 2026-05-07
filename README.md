@@ -1,6 +1,8 @@
 # 👷‍♂️ DynMEP
 
-Welcome to **DynMEP**! I'm Alfonso Davila, an Electrical Engineer with 20+ years of experience in power systems, renewable integration, and multidisciplinary project leadership. My mission is to advance U.S. electrical infrastructure and sustainable design by developing automation and tools for Revit MEP and BIM workflows. These solutions streamline engineering processes, enhance accuracy, and promote energy efficiency across the construction and power sectors. Projects include NEC-compliant Dynamo/Python scripts, AI-based symbol detection systems, and computational optimization methods supporting reliable and sustainable energy distribution. All repositories are hosted at [github.com/DynMEP](https://github.com/DynMEP) under the MIT License.
+Welcome to **DynMEP**! I’m Alfonso Davila, an Electrical Engineer with 20+ years of experience in power systems, power distribution design, renewable integration, and multidisciplinary project leadership. I build practical, open-source tools at the intersection of electrical infrastructure, sustainable energy, and engineering automation, from AI-assisted plan takeoff to simulation and optimization for resilient power systems.
+
+Featured work includes YOLO-based symbol detection/counting for technical drawings, AI-driven microgrid energy management with reinforcement learning, and engineering simulators (Renewable integration, VFD/motor behavior and more). I also develop automation concepts for Revit MEP / BIM workflows using Dynamo/Python/Pyrevit to streamline engineering tasks, improve accuracy, and support energy-efficient design. Repositories are hosted at [github.com/DynMEP](https://github.com/DynMEP); see each repository for its specific license (MIT where noted).
 
 ---
 
