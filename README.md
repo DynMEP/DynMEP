@@ -460,7 +460,6 @@ All repositories are licensed under the MIT License. See individual repository L
 **LinkedIn**: [https://www.linkedin.com/in/alfonso-davila-vera](https://www.linkedin.com/in/alfonso-davila-vera)  
 **GitHub**: [github.com/DynMEP](https://github.com/DynMEP)  
 **YouTube**: [@DynMEP](https://youtube.com/@DynMEP)  
-**Website** (Coming Soon): [dynmep.com](http://dynmep.com)
 
 ---
 
