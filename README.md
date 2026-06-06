@@ -457,7 +457,7 @@ All repositories are licensed under the MIT License. See individual repository L
 
 **Author**: Alfonso Antonio Dávila Vera  
 **Email**: davila.alfonso@gmail.com  
-**LinkedIn**: [www.linkedin.com/in/alfonso-davila-3a121087](http://www.linkedin.com/in/alfonso-davila-3a121087)  
+**LinkedIn**: [https://www.linkedin.com/in/alfonso-davila-vera](https://www.linkedin.com/in/alfonso-davila-vera)  
 **GitHub**: [github.com/DynMEP](https://github.com/DynMEP)  
 **YouTube**: [@DynMEP](https://youtube.com/@DynMEP)  
 **Website** (Coming Soon): [dynmep.com](http://dynmep.com)
