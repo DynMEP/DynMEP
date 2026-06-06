@@ -486,9 +486,6 @@ All repositories are licensed under the MIT License. See individual repository L
 
 ---
 
-<p><a href="https://www.buymeacoffee.com/h1pot"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="h1pot" /></a></p><br><br>
-
----
 
 ## 🗺️ Repository Navigation
 
