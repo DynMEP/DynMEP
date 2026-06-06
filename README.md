@@ -463,6 +463,14 @@ All repositories are licensed under the MIT License. See individual repository L
 
 ---
 
+## 🚀 Commercial Products
+
+- **[PVOptix](https://pvoptix.com)** — Solar+storage optimization SaaS (from SOLARA)
+- **[PWAI](https://pwai.io)** — Transformer intelligence for data centers
+- **[MEPdetect](https://mepdetect.com)** — AI symbol detection for MEP drawings (from YOLOplan)
+
+---
+
 ## 🌟 Featured Achievements
 
 - **20+ Years**: Electrical engineering expertise
