@@ -1,6 +1,6 @@
 # 👷‍♂️ DynMEP
 
-Welcome to **DynMEP**! I’m Alfonso Davila, an Electrical Engineer with 20+ years of experience in power systems, power distribution design, renewable integration, and multidisciplinary project leadership. I build practical, open-source tools at the intersection of electrical infrastructure, sustainable energy, and engineering automation, from AI-assisted plan takeoff to simulation and optimization for resilient power systems.
+Welcome to **DynMEP**! I’m Alfonso A. Davila Vera, an Electrical Engineer with 20+ years of experience in power systems, power distribution design, renewable integration, and multidisciplinary project leadership. I build practical, open-source tools at the intersection of electrical infrastructure, sustainable energy, and engineering automation, from AI-assisted plan takeoff to simulation and optimization for resilient power systems.
 
 Featured work includes YOLO-based symbol detection/counting for technical drawings, AI-driven microgrid energy management with reinforcement learning, and engineering simulators (Renewable integration, VFD/motor behavior and more). I also develop automation concepts for Revit MEP / BIM workflows using Dynamo/Python/Pyrevit to streamline engineering tasks, improve accuracy, and support energy-efficient design. Repositories are hosted at [github.com/DynMEP](https://github.com/DynMEP); see each repository for its specific license (MIT where noted).
 
@@ -300,7 +300,7 @@ python cli.py evaluate --auto-latest --scenarios 100 --plot
 - 20-Year NPV: $57,886 (5% discount rate)
 - Internal Rate of Return: 21.4%
 
-**Research Paper**: "Anticipatory Deep Reinforcement Learning for Microgrid Energy Management: Achieving 100% Evening Peak Coverage Through Pre-Event Preparation" by Alfonso Davila (2025)
+**Research Paper**: "Anticipatory Deep Reinforcement Learning for Microgrid Energy Management: Achieving 100% Evening Peak Coverage Through Pre-Event Preparation" by Alfonso A. Davila Vera (2025)
 
 ---
 
